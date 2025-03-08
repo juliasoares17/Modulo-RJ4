@@ -248,4 +248,4 @@ class Empresa {
     }
 }
 
-export default {Cliente, Telefone, Endereco, Empresa}
+export {Cliente, Telefone, Endereco, Empresa}
