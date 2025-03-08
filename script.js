@@ -240,7 +240,7 @@ class Empresa {
         for (let cliente of this.clientes){
             resultado += `Nome: ${cliente.obterNome}\n${cliente.obterEndereco}\n`
             for (let telefone of cliente.obterTelefones){
-                resultado += `ddd: ${telefone.obterDdd} numero: ${telefone.obterNumero}\n`
+                resultado += `ddd: ${telefone.obterDdd} número: ${telefone.obterNumero}\n`
             }
             resultado += '\n'
         }
