@@ -247,3 +247,5 @@ class Empresa {
         return resultado
     }
 }
+
+export default {Cliente, Telefone, Endereco, Empresa}
